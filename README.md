@@ -11,7 +11,7 @@
 * JavaScript
 
 ## Support and contact details
-  incase of issue kindly contact the authors via issackhalima@gmail.com and 
+  incase of issue kindly contact the authors via issackhalima@gmail.com and farmer.ayayaben@gmail.com
   
 <a href="https://github.com/halimtullah/calculator-pro/blob/master/LICENSE">License</a>
 
