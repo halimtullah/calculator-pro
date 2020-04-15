@@ -2,6 +2,8 @@
 <html>
     <head>
         <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?
+        family=open+sans:600,700" rel="stylesheet">
         <title>A Simple Calculator</title>
     </head>
     <body>
@@ -15,40 +17,34 @@
                         <p id="output-value"></p>
                     </div>
                 </div>
-                <div id="keyboard">
-                    <button class="operator" id="clear">C</button>
-                    <button class="operator" id="backspace">CE</button>
-                    <button class="operator" id="%">%</button>
-                    <button class="operator" id="/">&#247</button>
-                    <button class="number" id="7">7</button>
-                    <button class="number" id="8">8</button>
-                    <button class="number" id="9">9</button>
-                    <button class="operator" id="*">&times;</button>
-                    <button class="number" id="4">4</button>
-                    <button class="number" id="5">5</button>
-                    <button class="number" id="6">6</button>
-                    <button class="operator" id="-">-</button>
-                    <button class="number" id="1">1</button>
-                    <button class="number" id="2">2</button>
-                    <button class="number" id="3">3</button>
-                    <button class="operator" id="+">+</button>
-                    <button class="empty" id="empty"></button>
-                    <button class="number" id="0">0</button>
-                    <button class="empty" id="empty"></button>
-                    <button class="operator" id="=">=</button>
-                    
-
-
-                    
-
-
-                </div>
-
+            
+                <form name="calculator">
+                    <input type="text" name="answer" id="result" />
+                    <input type="button" value=" C " onclick="calculator.answer.value = ''" class="operator" id="clear" />
+                    <input type="button" value=" % " onclick="calculator.answer.value += '%'" class="operator" id="%" />
+                    <input type="button" value=" / " onclick="calculator.answer.value += '/'" class="operator" id="/" />
+                    <input type="button" value=" * " onclick="calculator.answer.value += '*'" class="operator" id="*" />
+                    <input type="button" value=" 7 " onclick="calculator.answer.value += '7'" class="number" id="7" />
+                    <input type="button" value=" 8 " onclick="calculator.answer.value += '8'" class="number" id="8" />
+                    <input type="button" value=" 9 " onclick="calculator.answer.value += '9'" class="number" id="9" />
+                    <input type="button" value=" + " onclick="calculator.answer.value += '+'" class="operator" id="+" />
+                    <input type="button" value=" 4 " onclick="calculator.answer.value += '4'" class="number" id="4" />
+                    <input type="button" value=" 5 " onclick="calculator.answer.value += '5'" class="number" id="5" />
+                    <input type="button" value=" 6 " onclick="calculator.answer.value += '6'" class="number" id="6" />
+                    <input type="button" value=" - " onclick="calculator.answer.value += '-'" class="operator" id="-" />
+                    <input type="button" value=" 1 " onclick="calculator.answer.value += '1'" class="number" id="1" />
+                   <input type="button" value=" 2 " onclick="calculator.answer.value += '2'" class="number" id="2" />
+                    <input type="button" value=" 3 " onclick="calculator.answer.value += '3'" class="number" id="3" />
+                    <input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" 
+                    class="operator" id="=" />
+                    <input type="button" value=" 0 " onclick="calculator.answer.value += '0'" class="operator" id="0" />
+                </form>
+            </div>
             </div>
         </div>
 
 
 
-        <script src="js/scripts.js"></script>
+        <script src="/js/scripts.js"></script>
     </body>
 </html>
