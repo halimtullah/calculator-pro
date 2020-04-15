@@ -13,7 +13,7 @@
 ## Support and contact details
   incase of issue kindly contact the authors via issackhalima@gmail.com and 
   
-<a href="https://github.com/halimtullah/calculator-pro/new/master">License</a>
+<a href="https://github.com/halimtullah/calculator-pro/blob/master/LICENSE">License</a>
 
 Copyright (c) 2020 **Halima Issack and Benson Ayaya**
   
